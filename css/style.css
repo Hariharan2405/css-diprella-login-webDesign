@@ -1,0 +1,94 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	width:60%;
+	margin:auto;
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+.row{
+	display:flex;
+	text-align:center;
+	box-shadow:0 0 10px #ccc;
+	margin-top:10vh;
+	border-radius:10px;
+	overflow:hidden;
+}
+.sign-in-col{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:40%;
+	background:url("https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2020/07/Featured-Image-1.jpg");
+	background-size:cover;
+	background-position:center center;
+}
+.sign-in{
+	width:80%;
+	margin:auto;
+	color:#fff;
+}
+.sign-in p{
+	padding:20px 0 40px;
+}
+.sign-in a{
+	padding:10px 30px;
+	border:1px solid #fff;
+	border-radius:50px;
+	font-weight:600px;
+	color:#fff;
+}
+.login a{
+	padding:10px 40px;
+	border:1px solid #00e6e6;
+	border-radius:50px;
+	background-color:#00e6e6;
+	color:#fff;
+	font-weight:600px;
+}
+.sign-in h1{
+	font-size:30px;
+}
+.sign-up-col{
+	width:60%;
+}
+.sign-up{
+	width:60%;
+	margin:auto;
+	padding:50px 0;
+}
+.sign-up h1{
+	color:#00e6e6;
+	font-size:30px;
+}
+.icons{
+	display:flex;
+	justify-content:center;
+	padding:20px 0px;
+	gap:10px;
+}
+.icon{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:30px;
+	height:30px;
+	border:1px solid #000;
+	border-radius:50%;
+}
+.box{
+	padding:10px 0px;
+	width:100%;
+}
+input{
+	width:100%;
+	padding:12px 16px;
+}
+.btn{
+	padding:20px 0;
+}
